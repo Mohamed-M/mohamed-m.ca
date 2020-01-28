@@ -5,8 +5,10 @@ import Articles from './components/pages/Articles';
 import Portfolio from './components/pages/Portfolio';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
-import './App.scss';
+import BigJump from './components/pages/portfolio-pages/BigJump';
+import Capi from './components/pages/portfolio-pages/Capi';
 import BackgroundVideo from './components/background-video/BackgroundVideo';
+import './App.scss';
 
 function App() {
   return (
@@ -37,6 +39,14 @@ function App() {
 
         <Route path="/contact">
           <Contact />
+        </Route>
+
+        <Route path="/bigjump">
+          <BigJump />
+        </Route>
+
+        <Route path="/capi">
+          <Capi />
         </Route>
 
       </React.Fragment>

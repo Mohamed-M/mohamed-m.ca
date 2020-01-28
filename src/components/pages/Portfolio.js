@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import "./Portfolio.scss";
 
 class Portfolio extends Component {
@@ -7,7 +8,7 @@ class Portfolio extends Component {
       <main className="portfolio">
         <h2>Pixel Perfect Design with a Modular Architecture</h2>
         <div className="portfolio-wrapper">
-          <a href="portfolio/capi.html">
+          <Link to="/capi">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img
@@ -20,8 +21,8 @@ class Portfolio extends Component {
                 Canadian Agri-Food Policy Institute
               </div>
             </article>
-          </a>
-          <a href="portfolio/bigjumpent.html">
+          </Link>
+          <Link to="/bigjump">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img src={require('./../../assets/image/bigjump.jpg')} alt="Big Jump Ent." />
@@ -29,7 +30,7 @@ class Portfolio extends Component {
 
               <div className="portfolio-title">Big Jump Ent.</div>
             </article>
-          </a>
+          </Link>
 
           <a href="portfolio/theregionalgroup.html">
             <article className="portfolio-item">

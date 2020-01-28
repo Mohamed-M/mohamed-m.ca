@@ -6,7 +6,7 @@ function Header() {
   return (
     <section className="main-nav">
       <Link to="/">
-        <img class="logo" src={require('./../../assets/image/logo.png')} />
+        <img className="logo" src={require('./../../assets/image/logo.png')} />
       </Link>
       <ul className="nav-container">
       <Link to="articles" className="nav-link"><li>Articles<span className="fa fa-file-code-o"></span></li></Link>
