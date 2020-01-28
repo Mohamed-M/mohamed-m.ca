@@ -1,0 +1,130 @@
+@import '../../App.scss';
+
+.about-page {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+
+  margin: 1rem auto 0;
+  width: 100%;
+
+  background-color: $navy-blue;
+
+  color: $eggshell-white;
+
+  @media #{$medium} {
+    flex-flow: row nowrap;
+  }
+}
+
+.about-info {
+  @media #{$medium} {
+    width: calc(65% - 1rem);
+  }
+}
+
+.about-title {
+  padding: 3rem 2rem 0rem;
+  margin: 0;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: $font-weight-light;
+
+  @media #{$medium} {
+    font-size: 3.5rem;
+  }
+}
+
+.about-description {
+  padding: 1rem 2rem;
+  margin: 0;
+  width: 100%;
+
+  @media #{$medium} {
+    width: 80%;
+  }
+}
+
+.about-pic {
+  padding: 2rem;
+  margin: 0 auto;
+
+  @media #{$medium} {
+    margin: 0;
+    width: calc(35% - 1rem);
+  }
+}
+
+.abilities-section {
+  @extend .about-info;
+  flex: none;
+
+  background-color: transparent;
+}
+
+.abilities-title {
+  @extend .about-title;
+  color: $navy-blue;
+}
+
+.abilities {
+  margin: 1.5em 0;
+  padding: 0 2rem;
+
+  li {
+    margin-bottom: 0.5em;
+    padding: 0.5em 1em;
+    color: #fff;
+  }
+}
+[class^="ability-"] {
+  position: relative;
+
+  &:before,
+  &:after {
+    position: absolute;
+    content: "";
+  }
+  &:before {
+    top: 0.5em;
+    margin-left: -2em;
+    text-align: right;
+    color: #fff;
+  }
+  &:after {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background: $color-accent;
+    z-index: -1;
+  }
+}
+
+$abilities: (
+  html:        90,
+  css:         95,
+  git:         80,
+  javascript:  90,
+  react:       85,
+  angular:     85,
+  wordpress:   70,
+  photoshop:   90,
+);
+
+@each $ability, $score in $abilities {
+  @keyframes show-ability-#{$ability} {
+    from { width: 0; }
+    to { width: $score * 1%; }
+  }
+  .ability-#{$ability} {
+    &:before {
+      content: "#{$score}";
+      left: $score * 1%;
+    }
+    &:after {
+      animation: show-ability-#{$ability} ease-in-out 1s 1s 1;
+      animation-fill-mode: forwards;
+    }
+  }
+}

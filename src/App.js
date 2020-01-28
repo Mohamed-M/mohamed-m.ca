@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Header from './components/layout/Header';
-import Articles from './components/pages/Articles'
+import Articles from './components/pages/Articles';
+import About from './components/pages/About';
 import './App.scss';
 import BackgroundVideo from './components/background-video/BackgroundVideo';
 
@@ -23,6 +24,11 @@ function App() {
         <Route path='/articles' component="{Articles}">
           <Articles />
         </Route>
+
+        <Route path='/about' component="{About}">
+          <About />
+        </Route>
+
       </React.Fragment>
     </Router>
   );
