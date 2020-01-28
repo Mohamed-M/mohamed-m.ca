@@ -25,7 +25,7 @@
   font-size: 2rem;
 }
 
-.contact-wrapper { box-shadow: 0 0 2rem rgba(72, 94, 116, 0.7); }
+.contact-wrapper { border: 1px solid $navy-blue; }
 
 .contact-wrapper > * { padding: 1rem; }
 
@@ -46,7 +46,7 @@
 
 .contact-form a { color: $blue-gray-600; }
 
-.contact-info { background-color: #eee; }
+.contact-info { border-bottom:1px solid $navy-blue; }
 
 .contact-info h3 {
   text-align: left;

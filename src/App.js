@@ -10,6 +10,10 @@ import Capi from './components/pages/portfolio-pages/Capi';
 import BigJump from './components/pages/portfolio-pages/BigJump';
 import RegionalGroup from './components/pages/portfolio-pages/RegionalGroup';
 import Wikileaf from './components/pages/portfolio-pages/Wikileaf';
+import RTHMF from './components/pages/portfolio-pages/RTHMF';
+import HarlemTribune from './components/pages/portfolio-pages/HarlemTribune';
+import Infrastructure from './components/pages/portfolio-pages/Infrastructure';
+import Kasanova from './components/pages/portfolio-pages/Kasanova';
 
 import './App.scss';
 
@@ -59,6 +63,23 @@ function App() {
         <Route path="/wikileaf">
           <Wikileaf />
         </Route>
+
+        <Route path="/rthmf">
+          <RTHMF />
+        </Route>
+
+        <Route path="/harlem-tribune">
+          <HarlemTribune />
+        </Route>
+
+        <Route path="/infrastructure">
+          <Infrastructure />
+        </Route>
+
+        <Route path="/kasanova">
+          <Kasanova />
+        </Route>
+
       </React.Fragment>
     </Router>
   );

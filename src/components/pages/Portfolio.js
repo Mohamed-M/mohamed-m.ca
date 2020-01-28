@@ -12,7 +12,7 @@ class Portfolio extends Component {
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img
-                  src={require('./../../assets/image/wikileaf.png')}
+                  src={require('./../../assets/image/wikileaf_logo.png')}
                   alt="Wikileaf"
                 />
               </div>
@@ -66,7 +66,7 @@ class Portfolio extends Component {
               <div className="portfolio-title">Archetype Web Components</div>
             </article>
           </a>
-          <a href="portfolio/rthmf.html">
+          <a href="/rthmf">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img
@@ -80,11 +80,11 @@ class Portfolio extends Component {
             </article>
           </a>
 
-          <a href="portfolio/harlem-tribune.html">
+          <a href="/harlem-tribune">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img
-                  src={require('./../../assets/image/harlem_tribune_logo_transparent.png')}
+                  src={require('./../../assets/image/harlem-tribune_logo.png')}
                   alt="Harlem Tribune"
                 />
               </div>
@@ -92,7 +92,7 @@ class Portfolio extends Component {
             </article>
           </a>
 
-          <a href="portfolio/infrastructure.html">
+          <a href="/infrastructure">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img
@@ -113,7 +113,7 @@ class Portfolio extends Component {
             </article>
           </a>
 
-          <a href="portfolio/kasanova.html">
+          <a href="/kasanova">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img src={require('./../../assets/image/kasanova_logo.jpg')} alt="Kasanova Logo" />
