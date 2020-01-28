@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // Makes PX to REM conversion easier (e.g. 16px == 1.6rem)
+}
+
+*,
+*:before,
+*:after { box-sizing: inherit; }
+
+body {
+  position: relative;
+
+  background-color: $color-background;
+
+  color: $color-main;
+  font-size: 1.6rem;
+  font-family: $font-main;
+  font-weight: $font-weight-normal;
+  line-height: 1.6;
+
+  overflow-y: scroll;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color-headings;
+}
+
+a {
+  text-decoration: none;
+  color: $color-accent;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: $container-default-width;
+  max-width: $container-max-width;
+}
