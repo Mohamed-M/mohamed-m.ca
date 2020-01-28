@@ -1,0 +1,30 @@
+.bg-video {
+  position: relative;
+  background-color: rgba(0,0,0,1);
+}
+
+.video-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -999;
+
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+  overflow:hiden;
+
+  min-height: 100%;
+  min-width: 100%;
+
+  background-color: rgba(32,54,56,0.9);
+}

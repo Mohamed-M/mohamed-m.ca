@@ -1,3 +1,45 @@
 @import './scss/normalize';
 @import './scss/variables';
 @import './scss/base';
+
+
+
+.intro-info {
+  width: $container-default-width;
+  padding: 2.4rem;
+  margin: 3rem auto;
+
+  background-color: rgba(0,0,0,.3);
+
+  @media #{$medium} {
+    margin: 10rem auto 0rem;
+    padding: 4.8rem 2.4rem;
+    max-width: 60%;
+  }
+}
+
+.intro-title {
+  margin: 0;
+
+  font-weight: $font-weight-light;
+  font-size: 2.2rem;
+  color: $eggshell-white;
+
+  @media #{$large} {
+    font-size: 3.2rem;
+  }
+}
+
+.intro-subtitle {
+  margin: 0;
+
+  font-weight: $font-weight-light;
+  font-style: italic;
+  font-size: 1.6rem;
+  color: $blue-gray-300;
+  line-height: 150%;
+
+  @media #{$large} {
+    line-height: 200%;
+  }
+}
