@@ -1,0 +1,66 @@
+@import '../../App.scss';
+
+.contact-page {
+  max-width: 117rem;
+  padding: 1rem;
+  margin: 1.5rem auto;
+
+  color: $blue-gray-300;
+}
+
+.contact-title {
+  margin-bottom: 2rem;
+  color: $navy-blue;
+  font-weight: $font-weight-light;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  text-align: center;
+
+  @media #{$medium} {
+    font-size: 4.4rem;
+  }
+}
+
+.contact-page h3 {
+  font-size: 2rem;
+}
+
+.contact-wrapper { box-shadow: 0 0 2rem rgba(72, 94, 116, 0.7); }
+
+.contact-wrapper > * { padding: 1rem; }
+
+.contact-info { background-color: $eggshell-white; }
+
+.contact-form ul { 
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form li { 
+  list-style-type: none; 
+
+  > :last-child {
+    margin-left: 1rem;
+  }
+} 
+
+.contact-form a { color: $blue-gray-600; }
+
+.contact-info { background-color: #eee; }
+
+.contact-info h3 {
+  text-align: left;
+}
+
+@media #{$medium} {
+  
+  .contact-title { text-align: left; }
+
+  .contact-wrapper > * { padding: 2rem; }
+
+  .contact-form h3,
+  .contact-form p,
+  .contact-form ul {
+    text-align: left;
+  }
+}

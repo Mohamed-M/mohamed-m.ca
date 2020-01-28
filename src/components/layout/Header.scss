@@ -8,7 +8,7 @@
 
   padding: 1rem 0;
 
-  background-color: $eggshell-white;
+  background-color: #fff;
 
   @media #{$medium} {
     flex-flow: row nowrap;
@@ -16,27 +16,9 @@
 }
 
 .logo {
-  margin-bottom: 1rem;
-  padding: 1rem 2rem;
-  border-radius: 0.5rem;
-
-  font-size: 2.6rem;
-  color: $color-accent;
-  font-family: $font-secondary;
-  font-weight: $font-weight-black;
-
-  background-color: transparent;
-  border: 1px solid $color-accent;
-
-
-  @media #{$medium} {
-    margin: 0 4rem;
-    transition: all .2s ease-in;
-
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
+  max-width: 50%;
+  height: auto;
+  margin-left: 40px;
 }
 
 .nav-container {

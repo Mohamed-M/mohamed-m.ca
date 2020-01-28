@@ -1,0 +1,45 @@
+import React, { Component } from "react";
+import "./Contact.scss";
+
+class Contact extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <section className="contact-page">
+          <h2 className="contact-title">Get in touch</h2>
+
+          <div className="contact-wrapper animated fadeInUpBig">
+            <div className="contact-info">
+              <h3>Mohamed Ahmed Mohamud</h3>
+            </div>
+            <div className="contact-form">
+              <ul>
+                <li>
+                  <i className="fa fa-github"></i>
+                  <a href="http://www.github.com/mohamed-m"> Github Profile</a>
+                </li>
+                <li>
+                  <i className="fa fa-file"></i>
+                  <a href="img/mohamed_mohamud_resume.pdf"> Resume (PDF)</a>
+                </li>
+                <li>
+                  <i className="fa fa-map-pin"></i> <span>Ottawa, Ontario</span>
+                </li>
+                <li>
+                  <i className="fa fa-envelope-o"></i>
+                  <a href="mailto:contact@mohamed-m.ca">contact@mohamed-m.ca</a>
+                </li>
+                <li>
+                  <i className="fa fa-phone"></i>
+                  <a href="tel:9057005789">(613) 700-5789</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </React.Fragment>
+    );
+  }
+}
+
+export default Contact;
