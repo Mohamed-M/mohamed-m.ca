@@ -1,0 +1,65 @@
+@import '../../App.scss';
+
+.articles {
+  margin: 1.5rem 2rem;
+}
+
+.articles h2 {
+  margin-bottom: 2rem;
+  color: $navy-blue;
+  font-weight: $font-weight-light;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  text-align: center;
+
+  @media #{$medium} {
+    font-size: 3.5rem;
+    text-align: left;
+  }
+}
+
+.article-card {
+  padding: 1.5rem 2rem;
+  margin-top: 1rem;
+  border: .1rem solid #ccc;
+  border-left: .5rem solid #000;
+
+  background-color: #eee;
+  
+  &:hover {
+    padding-left: 3rem;
+  }
+
+  transition: all .2s ease-in-out;
+
+  @media #{$medium} {
+    max-width: 80%;
+  }
+
+}
+
+.articles h3 {
+  margin: 0;
+
+  font-size: 2rem;
+  font-family: $font-secondary;
+  color: #414141;
+  font-weight: $font-weight-light;
+
+  @media #{$medium} {
+    font-size: 3rem;
+  }
+}
+
+.articles p {
+  margin: 0;
+  
+  color: darken(#b3b3b3, 20%);
+  font-size: 1.6rem;
+}
+
+.article-date {
+  font-size: 1rem;
+  color: $blue-gray-300;
+}
+
