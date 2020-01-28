@@ -9,7 +9,7 @@ class Infrastructure extends Component {
           <div className="pf-info">
             <h2>Infrastructure</h2>
             <img src={require('./../../../assets/image/infrastructure_logo.png')} alt="Raising the hammer music festival image" className="pf-logo" />
-            <a className="pf-btn" target="_blank" href="https://www.raisinthehammer.org/">Visit Site</a>
+            <a className="pf-btn" target="_blank" href="https://github.com/Mohamed-M/Infrastructure">View on Github</a>
             </div>
           <div className="left-panel">
             <p>A build system that utilizes Sass as the preprocessor that get's piped into PostCSS, which behaves as a post processor and transpiles various plugins into the source code. The Javascript is minified with gulp-uglify. Gulp is the task runner that ties it altogether and watches/exports all the files in the development folder to the production folder, and also provides a local server with Browsersync.</p>        

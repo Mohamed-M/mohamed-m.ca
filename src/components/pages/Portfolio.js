@@ -104,7 +104,7 @@ class Portfolio extends Component {
             </article>
           </a>
 
-          <a href="portfolio/shawn-lauren.html">
+          <a href="/shawn-lauren">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img src={require('./../../assets/image/shawn-lauren_logo.jpg')} alt="Shawn Lauren Logo" />
@@ -122,7 +122,7 @@ class Portfolio extends Component {
             </article>
           </a>
 
-          <a href="portfolio/sophisticated-blog.html">
+          <a href="/sophisticated-blog">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img src={require('./../../assets/image/sb_logo.jpg')} alt="Sophisticated Blog" />

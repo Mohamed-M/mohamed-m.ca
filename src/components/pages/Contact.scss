@@ -31,6 +31,10 @@
 
 .contact-info { background-color: $eggshell-white; }
 
+.contact-form {
+  background-color: #fff;
+}
+
 .contact-form ul { 
   margin: 0;
   padding: 0;
@@ -46,7 +50,10 @@
 
 .contact-form a { color: $blue-gray-600; }
 
-.contact-info { border-bottom:1px solid $navy-blue; }
+.contact-info { 
+  border-bottom:1px solid $navy-blue; 
+  background-color: #fff; 
+}
 
 .contact-info h3 {
   text-align: left;

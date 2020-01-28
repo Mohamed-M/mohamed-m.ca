@@ -13,9 +13,11 @@ import Wikileaf from './components/pages/portfolio-pages/Wikileaf';
 import RTHMF from './components/pages/portfolio-pages/RTHMF';
 import HarlemTribune from './components/pages/portfolio-pages/HarlemTribune';
 import Infrastructure from './components/pages/portfolio-pages/Infrastructure';
+import ShawnLauren from './components/pages/portfolio-pages/ShawnLauren';
 import Kasanova from './components/pages/portfolio-pages/Kasanova';
 
 import './App.scss';
+import SophisticatedBlog from './components/pages/portfolio-pages/SophisticatedBlog';
 
 function App() {
   return (
@@ -76,8 +78,16 @@ function App() {
           <Infrastructure />
         </Route>
 
+        <Route path="/shawn-lauren">
+          <ShawnLauren />
+        </Route>
+
         <Route path="/kasanova">
           <Kasanova />
+        </Route>
+
+        <Route path="/sophisticated-blog">
+          <SophisticatedBlog />
         </Route>
 
       </React.Fragment>
