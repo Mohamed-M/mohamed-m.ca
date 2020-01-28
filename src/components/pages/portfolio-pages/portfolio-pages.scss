@@ -27,21 +27,18 @@
   text-transform: uppercase;
   font-size: 3.5rem;
   margin-bottom: 20px;
-
-  @media #{$medium} {
-    font-size: 4.4rem;
-  }
 }
 
 .pf-btn {
   display: inline-block;
   padding: 1rem 2rem;
   margin: 1rem auto 3rem;
+  border: 1px solid $navy-blue;
 
 
-  background-color: $deep-orange-a400;
+  background-color: $eggshell-white;
 
-  color: $eggshell-white;
+  color: $navy-blue;
   text-transform: uppercase;
   font-size: 1.8rem;
   font-family: $font-main;
@@ -51,7 +48,8 @@
   transition: background-color .2s ease-in-out;
 
   &:hover {
-    background-color: rgba(255,61,0, .5);
+    background-color: $navy-blue;
+    color: $eggshell-white;
   }
 }
 

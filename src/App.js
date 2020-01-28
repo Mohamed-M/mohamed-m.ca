@@ -1,13 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
+import BackgroundVideo from './components/background-video/BackgroundVideo';
 import Header from './components/layout/Header';
 import Articles from './components/pages/Articles';
 import Portfolio from './components/pages/Portfolio';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
-import BigJump from './components/pages/portfolio-pages/BigJump';
 import Capi from './components/pages/portfolio-pages/Capi';
-import BackgroundVideo from './components/background-video/BackgroundVideo';
+import BigJump from './components/pages/portfolio-pages/BigJump';
+import RegionalGroup from './components/pages/portfolio-pages/RegionalGroup';
+import Wikileaf from './components/pages/portfolio-pages/Wikileaf';
+
 import './App.scss';
 
 function App() {
@@ -49,6 +52,13 @@ function App() {
           <Capi />
         </Route>
 
+        <Route path="/regionalgroup">
+          <RegionalGroup />
+        </Route>
+
+        <Route path="/wikileaf">
+          <Wikileaf />
+        </Route>
       </React.Fragment>
     </Router>
   );

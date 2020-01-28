@@ -8,6 +8,20 @@ class Portfolio extends Component {
       <main className="portfolio">
         <h2>Pixel Perfect Design with a Modular Architecture</h2>
         <div className="portfolio-wrapper">
+          <Link to="/wikileaf">
+            <article className="portfolio-item">
+              <div className="portfolio-banner">
+                <img
+                  src={require('./../../assets/image/wikileaf.png')}
+                  alt="Wikileaf"
+                />
+              </div>
+
+              <div className="portfolio-title">
+                Wikileaf
+              </div>
+            </article>
+          </Link>
           <Link to="/capi">
             <article className="portfolio-item">
               <div className="portfolio-banner">
@@ -32,7 +46,7 @@ class Portfolio extends Component {
             </article>
           </Link>
 
-          <a href="portfolio/theregionalgroup.html">
+          <a href="/regionalgroup">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img src={require('./../../assets/image/theregionalgroup.jpg')} alt="The Regional Group" />
