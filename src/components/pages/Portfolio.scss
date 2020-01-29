@@ -3,6 +3,11 @@
 .portfolio {
   max-width: 1024px;
   margin: 0 auto;
+  padding: 0 20px;
+
+  @media #{$x-large} {
+    padding: 0;
+  }
 }
 
 .portfolio h2 {

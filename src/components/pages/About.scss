@@ -73,7 +73,11 @@
 
 .abilities {
   margin: 1.5em 0;
-  padding: 0;
+  padding-left: 20px;
+
+  @media #{$x-large} {
+    padding: 0;
+  }
 
   li {
     margin-bottom: 0.5em;
