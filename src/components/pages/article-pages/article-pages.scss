@@ -18,9 +18,13 @@
  }
 
 .article-title > h1 {
-  font-size: 4.2rem;
+  font-size: 2.2rem;
   font-weight: $font-weight-light;
   color: $navy-blue;
+
+  @media #{$large} {
+    font-size: 4.2rem;
+  }
 }
 
 .article-title > p {

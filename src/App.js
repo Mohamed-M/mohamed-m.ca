@@ -35,7 +35,7 @@ function App() {
           <section className="intro-page">
             <article className="intro-info">
               <p className="intro-title">Hello, I'm Mohamed, a Front End Web Developer.</p>
-              <p className="intro-subtitle">I'm enthusiastic about web development, great design aesthetics, and learning new technologies.</p>
+              <p className="intro-subtitle">I'm enthusiastic about web development, great code structure, and learning new technologies.</p>
             </article>
           </section>
         </Route>

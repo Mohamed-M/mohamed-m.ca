@@ -7,9 +7,9 @@ class About extends Component {
       <React.Fragment>
         <section className="about-page">
           <article className="about-info">
-            <p className="about-title">Mohamed M.</p>
-            <p className="about-description">Hello, there. I'm a Front-end/UI Web Developer. I have been coding since I was 11 years old. To be more precise, I have been building applications and websites since 1999.</p>
-            <p className="about-description">These days I like to delve into the development side of web applications. I enjoy coding in the front end and back end. I believe in convention over configuration, and utilizing a modular methodology on the front end architecture.</p>
+            <p className="about-title">About</p>
+            <p className="about-description">Hello, there. My name is Mohamed, and I'm a front-end/UI Web Developer. I'm dynamic web developer with a passion for user experience, responsive web design and enthusiastic about great code structure, efficient workflows and learning new technologies.</p>
+            <p className="about-description">My interests and hobbies are sports, reading and watching documentaries.</p>
           </article>
           <section className="about-pic">
             <img src={require('./../../assets/image/mohamed.jpg')} alt="Picture of Mohamed M." />

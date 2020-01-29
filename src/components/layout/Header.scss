@@ -19,8 +19,11 @@
 .logo {
   max-width: 60px;
   height: auto;
-  margin-left: 40px;
   text-decoration: none;
+  
+  @media #{$large} {
+    margin-left: 40px;
+  }
 }
 
 .nav-container {

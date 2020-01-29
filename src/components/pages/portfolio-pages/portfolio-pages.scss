@@ -2,8 +2,13 @@
 
 .pf-page {
   margin: 3rem 4rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+
+  @media #{$large} {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .pf-info {
@@ -79,7 +84,6 @@
 }
 
 .right-panel > img {
-  max-width: 400px;
 }
 
 .pf-copy {
