@@ -27,13 +27,17 @@
   background-color: #fff;
   
   &:hover {
-    padding-left: 3rem;
+    padding-left: 60px;
   }
 
   transition: all .2s ease-in-out;
 
   @media #{$medium} {
     max-width: 80%;
+
+    &:hover {
+      max-width: 90%;
+    }
   }
 
 }
