@@ -7,7 +7,7 @@ class BackgroundVideo extends Component {
       <section className="bg-video">
         <div className="bg-video-wrap">
           <div className="video-overlay"></div>
-          <video className="video" src={require('./../../assets/video/code.mp4')} autoPlay loop muted preload="auto" />
+          <video className="video" src={require('./../../assets/video/video.mp4')} autoPlay loop muted preload="auto" />
         </div>
       </section>
     )

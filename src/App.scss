@@ -8,8 +8,8 @@
   width: $container-default-width;
   padding: 2.4rem;
   margin: 3rem auto;
-
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #fff;
 
   @media #{$medium} {
     margin: 10rem auto 0rem;
