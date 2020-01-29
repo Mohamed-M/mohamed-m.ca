@@ -8,7 +8,7 @@ class Portfolio extends Component {
       <main className="portfolio">
         <h2>Pixel Perfect Design with a Modular Architecture</h2>
         <div className="portfolio-wrapper">
-          <a href="/wikileaf">
+          <Link to="/wikileaf">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img
@@ -21,8 +21,8 @@ class Portfolio extends Component {
                 Wikileaf
               </div>
             </article>
-          </a>
-          <a href="/capi">
+          </Link>
+          <Link to="/capi">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img
@@ -35,8 +35,8 @@ class Portfolio extends Component {
                 Canadian Agri-Food Policy Institute
               </div>
             </article>
-          </a>
-          <a href="/bigjump">
+          </Link>
+          <Link to="/bigjump">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img src={require('./../../assets/image/bigjump.jpg')} alt="Big Jump Ent." />
@@ -44,9 +44,9 @@ class Portfolio extends Component {
 
               <div className="portfolio-title">Big Jump Ent.</div>
             </article>
-          </a>
+          </Link>
 
-          <a href="/regionalgroup">
+          <Link to="/regionalgroup">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img src={require('./../../assets/image/theregionalgroup.jpg')} alt="The Regional Group" />
@@ -54,7 +54,7 @@ class Portfolio extends Component {
 
               <div className="portfolio-title">The Regional Group</div>
             </article>
-          </a>
+          </Link>
           <a href="https://mohamed-m.github.io/Archetype">
             <article className="portfolio-item">
               <div className="portfolio-banner">
@@ -66,7 +66,7 @@ class Portfolio extends Component {
               <div className="portfolio-title">Archetype Web Components</div>
             </article>
           </a>
-          <a href="/rthmf">
+          <Link to="/rthmf">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img
@@ -78,9 +78,9 @@ class Portfolio extends Component {
                 Raisin The Hammer Music Festival
               </div>
             </article>
-          </a>
+          </Link>
 
-          <a href="/harlem-tribune">
+          <Link to="/harlem-tribune">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img
@@ -90,9 +90,9 @@ class Portfolio extends Component {
               </div>
               <div className="portfolio-title">Harlem Tribune</div>
             </article>
-          </a>
+          </Link>
 
-          <a href="/infrastructure-article">
+          <Link to="/infrastructure-article">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img
@@ -102,34 +102,34 @@ class Portfolio extends Component {
               </div>
               <div className="portfolio-title">Infrastructure Build System</div>
             </article>
-          </a>
+          </Link>
 
-          <a href="/shawn-lauren">
+          <Link to="/shawn-lauren">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img src={require('./../../assets/image/shawn-lauren_logo.jpg')} alt="Shawn Lauren Logo" />
               </div>
               <div className="portfolio-title">Shawn Lauren 1992 Stadium</div>
             </article>
-          </a>
+          </Link>
 
-          <a href="/kasanova">
+          <Link to="/kasanova">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img src={require('./../../assets/image/kasanova_logo.jpg')} alt="Kasanova Logo" />
               </div>
               <div className="portfolio-title">Kasanova Construction</div>
             </article>
-          </a>
+          </Link>
 
-          <a href="/sophisticated-blog">
+          <Link to="/sophisticated-blog">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img src={require('./../../assets/image/sb_logo.jpg')} alt="Sophisticated Blog" />
               </div>
               <div className="portfolio-title">Sophisticated Blog</div>
             </article>
-          </a>
+          </Link>
         </div>
       </main>
     );
