@@ -12,7 +12,7 @@ class About extends Component {
             <p className="about-description">My interests and hobbies are sports, reading and watching documentaries.</p>
           </article>
           <section className="about-pic">
-            <img src={require('./../../assets/image/mohamed.jpg')} alt="Picture of Mohamed M." />
+            <img src={require('./../../assets/image/mohamed.jpg')} alt="Mohamed M." />
           </section>
         </section>
 

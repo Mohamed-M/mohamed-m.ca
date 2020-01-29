@@ -9,7 +9,7 @@ class BigJump extends Component {
           <div className="pf-info">
             <h2>Big Jump Entertainment</h2>
             <img src={require('./../../../assets/image/bigjumplogo.jpg')} alt="Big Jump Entertainment" className="pf-logo" />
-            <a className="pf-btn" target="_blank" href="https://bigjumpent.com/">Visit Site</a>
+            <a className="pf-btn" rel="noopener noreferrer" target="_blank" href="https://bigjumpent.com/">Visit Site</a>
             </div>
           <div className="left-panel">
             <p className="pf-copy">BIG JUMP Entertainment is a privately owned, independent, 2D hybrid animation production facility that specializes in the seamless combination of traditional and digital techniques.</p>

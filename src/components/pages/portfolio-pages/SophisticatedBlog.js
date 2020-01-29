@@ -9,7 +9,7 @@ class SophisticatedBlog extends Component {
           <div className="pf-info">
             <h2>Sophisticated Blog</h2>
             <img src={require('./../../../assets/image/sb_logo.jpg')} alt="Sophisticated Blog" className="pf-logo" />
-            <a className="pf-btn" target="_blank" href="https://mohamed-m.github.io/sophisticated-blog/">View on Github</a>
+            <a className="pf-btn" rel="noopener noreferrer" target="_blank" href="https://mohamed-m.github.io/sophisticated-blog/">View on Github</a>
             </div>
           <div className="left-panel">
             <p className="pf-copy">A simple one landing page for a blog with a full viewport height cinemagraph. It is open source and hosted on Github for downloading.</p>

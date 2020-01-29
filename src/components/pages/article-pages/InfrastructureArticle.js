@@ -23,7 +23,7 @@ class PassiveIncome extends Component {
                 These instructions will get you a copy of the system up and
                 running on your local machine for development.
               </p>
-              <a href="https://www.github.com/Mohamed-M/Infrastructure">GitHub Repo Link</a>
+              <a rel="noopener noreferrer" target="_blank" href="https://www.github.com/Mohamed-M/Infrastructure">GitHub Repo Link</a>
               <h4>Prerequisites</h4>
               <ul>
                 <li>Node Package Manager (NPM)</li>

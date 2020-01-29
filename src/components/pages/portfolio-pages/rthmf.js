@@ -8,8 +8,8 @@ class RTHMF extends Component {
         <main className="pf-page">
           <div className="pf-info">
             <h2>Raisin' The Hammer Music Festival</h2>
-            <img src={require('./../../../assets/image/rthmf_logo.jpg')} alt="Raising the hammer music festival image" className="pf-logo" />
-            <a className="pf-btn" target="_blank" href="https://www.raisinthehammer.org/">Visit Site</a>
+            <img src={require('./../../../assets/image/rthmf_logo.jpg')} alt="Raising the hammer music festival" className="pf-logo" />
+            <a className="pf-btn" rel="noopener noreferrer" target="_blank" href="https://www.raisinthehammer.org/">Visit Site</a>
             </div>
           <div className="left-panel">
             <p className="pf-copy">A music festival held biannually, Raisin The Hammer Festival, is a not-for-profit organization dedicated to promoting Hamilton, Ontario by hosting events celebrating the arts and culture of the city and its surrounding regions.</p>
@@ -18,8 +18,8 @@ class RTHMF extends Component {
           </div>
 
           <div className="right-panel">
-            <img src={require('./../../../assets/image/rthmf.jpg')} alt="Raisin the hammer music festival Image" className="pf-feature-img" />
-            <img src={require('./../../../assets/image/rthmf2.jpg')} alt="Raisin the hammer music festival Image" className="pf-img" />        
+            <img src={require('./../../../assets/image/rthmf.jpg')} alt="Raisin the hammer music festival" className="pf-feature-img" />
+            <img src={require('./../../../assets/image/rthmf2.jpg')} alt="Raisin the hammer music festival" className="pf-img" />        
           </div>
         </main>
     </React.Fragment>

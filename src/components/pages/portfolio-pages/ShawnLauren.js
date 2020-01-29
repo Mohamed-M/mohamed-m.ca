@@ -9,7 +9,7 @@ class ShawnLauren extends Component {
           <div className="pf-info">
             <h2>Shawn Lauren 1992 Stadium</h2>
             <img src={require('./../../../assets/image/shawn-lauren_logo.jpg')} alt="Shawn Lauren" className="pf-logo" />
-            <a className="pf-btn" target="_blank" href="https://mohamed-m.github.io/shawn-lauren">Visit Site</a>
+            <a className="pf-btn" rel="noopener noreferrer" target="_blank" href="https://mohamed-m.github.io/shawn-lauren">Visit Site</a>
             </div>
           <div className="left-panel">
             <p className="pf-copy">A fashion landing page with 2 funnel channels. The title of the site is paying homage to the Ralph Lauren 1992 Stadium collection. Which was a significant moment in urban street fashion, and is still revered to this day.</p>
@@ -18,7 +18,7 @@ class ShawnLauren extends Component {
           </div>
 
           <div className="right-panel">
-            <img src={require('./../../../assets/image/shawn-lauren.jpg')} alt="Shawn Lauren Image" className="pf-feature-img" />
+            <img src={require('./../../../assets/image/shawn-lauren.jpg')} alt="Shawn Lauren" className="pf-feature-img" />
           </div>
         </main>
     </React.Fragment>

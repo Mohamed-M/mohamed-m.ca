@@ -9,7 +9,7 @@ class HarlemTribune extends Component {
           <div className="pf-info">
             <h2>Harlem Tribune</h2>
             <img src={require('./../../../assets/image/harlem-tribune_logo.png')} alt="Harlem Tribune" className="pf-logo" />
-            <a className="pf-btn" target="_blank" href="https://mohamed-m.github.io/harlem-tribune/">View on GitHub</a>
+            <a className="pf-btn" rel="noopener noreferrer" target="_blank" href="https://mohamed-m.github.io/harlem-tribune/">View on GitHub</a>
             </div>
           <div className="left-panel">
             <p className="pf-copy">Regional Group is a Canadian real estate industry leader. The company has created opportunity and value, and demonstrated superior returns on investment in all real estate classes for clients and partners since 1958. The company has been family owned for three generations and its extensive relationships, visionary leadership, integrity, excellence and collaborative style are hallmarks of the business.</p>

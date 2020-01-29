@@ -9,7 +9,7 @@ class Wikileaf extends Component {
           <div className="pf-info">
             <h2>Wikileaf</h2>
             <img src={require('./../../../assets/image/wikileaf_logo2.png')} alt="Wiki logo image" className="pf-logo" />
-            <a className="pf-btn" target="_blank" href="https://www.wikileaf.com/">Visit Site</a>
+            <a className="pf-btn" rel="noopener noreferrer" target="_blank" href="https://www.wikileaf.com/">Visit Site</a>
             </div>
           <div className="left-panel">
             <p className="pf-copy">Wikileaf Technologies is a Seattle/Ottawa business providing data services to the cannabis industry and information to consumers. The company provides price indexes and cannabis strain reviews and information.</p>

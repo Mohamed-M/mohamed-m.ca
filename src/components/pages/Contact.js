@@ -16,22 +16,22 @@ class Contact extends Component {
               <ul>
                 <li>
                   <i className="fa fa-github"></i>
-                  <a href="http://www.github.com/mohamed-m"> Github Profile</a>
+                  <a rel="noopener noreferrer" target="_blank" href="http://www.github.com/mohamed-m"> Github Profile</a>
                 </li>
                 <li>
                   <i className="fa fa-file"></i>
-                  <a href={require('./../../assets/doc/mohamed_mohamud_resume.pdf')}> Resume (PDF)</a>
+                  <a rel="noopener noreferrer" target="_blank" href={require('./../../assets/doc/mohamed_mohamud_resume.pdf')}> Resume (PDF)</a>
                 </li>
                 <li>
                   <i className="fa fa-map-pin"></i> <span>Ottawa, Ontario</span>
                 </li>
                 <li>
                   <i className="fa fa-envelope-o"></i>
-                  <a href="mailto:contact@mohamed-m.ca">contact@mohamed-m.ca</a>
+                  <a rel="noopener noreferrer" target="_blank" href="mailto:contact@mohamed-m.ca">contact@mohamed-m.ca</a>
                 </li>
                 <li>
                   <i className="fa fa-phone"></i>
-                  <a href="tel:9057005789">(613) 700-5789</a>
+                  <a rel="noopener noreferrer" target="_blank" href="tel:9057005789">(613) 700-5789</a>
                 </li>
               </ul>
             </div>

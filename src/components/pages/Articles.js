@@ -15,7 +15,7 @@ class Articles extends Component {
           </article>   
         </Link>
 
-        <a href="https://mohamed-m.github.io/Archetype">
+        <a rel="noopener noreferrer" target="_blank" href="https://mohamed-m.github.io/Archetype">
           <article className="article-card">
             <h3>Archetype Web Components</h3>
             <p>A front end UI framework for building sites quickly.</p>

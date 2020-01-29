@@ -12,7 +12,7 @@ class WordPressOnePage extends Component {
             </div>
             <div class="article-body">
               <ol>
-                <li>Download and use the <a href="https://underscores.me">Underscores starter theme</a> as the boilerplate.</li>
+                <li>Download and use the <a rel="noopener noreferrer" target="_blank" href="https://underscores.me">Underscores starter theme</a> as the boilerplate.</li>
                 <li>Edit the style.css by adding custom CSS at the bottom of it (e.g. .site-branding ).</li>
                 <li>In theme-customizer, set the Front Page to a static page (i.e. Front Page -> Home).</li>
                 <li>Edit page.php and rename it one-page-site.php and change the template name comment code to “One Page Style”. Then edit the page and set template to “One Page Style”.</li>

@@ -55,7 +55,7 @@ class Portfolio extends Component {
               <div className="portfolio-title">The Regional Group</div>
             </article>
           </Link>
-          <a href="https://mohamed-m.github.io/Archetype">
+          <a rel="noopener noreferrer" target="_blank" href="https://mohamed-m.github.io/Archetype">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img

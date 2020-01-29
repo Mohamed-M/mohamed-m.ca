@@ -8,8 +8,8 @@ class Kasanova extends Component {
         <main className="pf-page">
           <div className="pf-info">
             <h2>Kasanova</h2>
-            <img src={require('./../../../assets/image/kasanova_logo.jpg')} alt="Kasanova logo image" className="pf-logo" />
-            <a className="pf-btn" target="_blank" href="https://mohamed-m.github.io/kasanova-construction/index.html">Visit Site</a>
+            <img src={require('./../../../assets/image/kasanova_logo.jpg')} alt="Kasanova logo" className="pf-logo" />
+            <a className="pf-btn" rel="noopener noreferrer" target="_blank" href="https://mohamed-m.github.io/kasanova-construction/index.html">Visit Site</a>
             </div>
           <div className="left-panel">
             <p className="pf-copy">Kasanova Construction is a small construction company based in Milton. They specialize in natural stone and flagstone, interlocking, retaining walls, sodding and landscape design, bobcat & mini excavtor services.</p>
@@ -18,8 +18,8 @@ class Kasanova extends Component {
           </div>
 
           <div className="right-panel">
-            <img src={require('./../../../assets/image/kasanova.jpg')} alt="Kasanova app image" className="pf-feature-img" />
-            <img src={require('./../../../assets/image/kasanova2.jpg')} alt="Kasanova website Image" className="pf-img" />        
+            <img src={require('./../../../assets/image/kasanova.jpg')} alt="Kasanova app" className="pf-feature-img" />
+            <img src={require('./../../../assets/image/kasanova2.jpg')} alt="Kasanova website" className="pf-img" />        
           </div>
         </main>
     </React.Fragment>
