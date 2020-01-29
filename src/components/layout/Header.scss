@@ -8,9 +8,6 @@
 
   padding: 1rem 0;
 
-  background-color: #fff;
-  border-bottom: 1px solid lightgray;
-
   @media #{$medium} {
     flex-flow: row nowrap;
   }
