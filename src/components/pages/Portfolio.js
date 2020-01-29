@@ -92,7 +92,7 @@ class Portfolio extends Component {
             </article>
           </Link>
 
-          <Link to="/infrastructure-article">
+          <Link to="/infrastructure">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img

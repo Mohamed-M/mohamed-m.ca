@@ -37,6 +37,11 @@
 
     &:hover {
       max-width: 90%;
+      border-color: $navy-blue;
+
+      h3 {
+        color: $navy-blue;
+      }
     }
   }
 
@@ -49,6 +54,8 @@
   font-family: $font-secondary;
   color: #414141;
   font-weight: $font-weight-light;
+
+  transition: all .2s ease-in-out;
 
   @media #{$medium} {
     font-size: 3rem;
