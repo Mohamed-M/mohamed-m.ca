@@ -8,28 +8,84 @@ class PassiveIncome extends Component {
         <main id="article-content">
           <article class="article-entry">
             <div class="article-title">
-              <h1>Creating a WordPress One Page Theme Walkthrough</h1>
-              <p>October 17th 2017 </p>
+              <h1>How to Start a Passive Income Project</h1>
+              <p>October 14th 2017 </p>
             </div>
             <div class="article-body">
               <ol>
-                <li>Download and use the <a href="https://underscores.me">Underscores starter theme</a> as the boilerplate.</li>
-                <li>Edit the style.css by adding custom CSS at the bottom of it (e.g. .site-branding ).</li>
-                <li>In theme-customizer, set the Front Page to a static page (i.e. Front Page -> Home).</li>
-                <li>Edit page.php and rename it one-page-site.php and change the template name comment code to “One Page Style”. Then edit the page and set template to “One Page Style”.</li>
-                <li>Use the WP Query code to select all the pages.</li>
-                <li>For the navigation, add an ID tag to each article section. Then use internal links in the nav to jump through the pages.</li>
-                <li>In the template-parts/content-page.php set the $post to global. Then change the article ID to the post name (i.e. slug) instead of the_ID().</li>
-                <li>Delete the automatically created menu items. Then use custom links instead of pages to set the links.</li>
-                <li>Utilize jQuery Scroll-To snippet for smarter scrolling.</li>
-                <li>Duplicate customer.js (part of underscores framework) and rename it as theme.js.</li>
-                <li>Make sure to test and use media queries for smaller screen sizes.</li>
-              </ol>          
+                <li>
+                  Look for a market opportunity:
+                  <ul>
+                    <li>
+                      Harness the skills and passion that you possess, and then
+                      look to tie them to a market opportunity that already
+                      exists.
+                    </li>
+                    <li>
+                      Avoid making a product that doesn’t have some signals of
+                      existing market interest.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Set realistic goals:
+                  <ul>
+                    <li>
+                      Set production goals. Goals should not be tied to income
+                      at this point, but instead to completing the project
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Dedicate some time:
+                  <ul>
+                    <li>
+                      If you work on it when you feel like it, your interest
+                      will most likely wain after a few weeks.
+                    </li>
+                    <li>
+                      Dedicate set hours every day or week to achieving your
+                      goals.
+                    </li>
+                    <li>
+                      Get up for a few hours early, before work or stay up a few
+                      hours later at night when everyone else has gone to bed.
+                      Set aside specific time and spend it working on your
+                      project.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Start quickly:
+                  <ul>
+                    <li>Don’t wait. Start now!</li>
+                    <li>
+                      There will never be a perfect moment to start work on
+                      something.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Keep it rough:
+                  <ul>
+                    <li>
+                      Keep the first draft (or beta version) rough. Don’t let
+                      perfectionism get in the way to early.
+                    </li>
+                    <li>
+                      It’s better to get a rough version of something out in the
+                      world so you can see what the response is then to never
+                      lunch a perfect version.
+                    </li>
+                  </ul>
+                </li>
+              </ol>
             </div>
           </article>
         </main>
-    </React.Fragment>
+      </React.Fragment>
     );
   }
 }
+
 export default PassiveIncome;

@@ -8,14 +8,6 @@ class Articles extends Component {
       <main className="articles">
         <h2>Articles on web development</h2>
     
-        <a href="https://mohamed-m.github.io/Archetype">
-          <article className="article-card">
-            <span className="article-date">12/28/2018</span>
-            <h3>Archetype Web Components</h3>
-            <p>A front end UI framework for building sites quickly.</p>
-          </article>      
-        </a>
-    
         <Link to="/wordpress-one-page">
           <article className="article-card">
             <span className="article-date">10/17/2018</span>
@@ -23,6 +15,14 @@ class Articles extends Component {
             <p>A simple tutorial on the fundamentals of creating a solid starting foundation.</p>
           </article>   
         </Link>
+
+        <a href="https://mohamed-m.github.io/Archetype">
+          <article className="article-card">
+            <span className="article-date">12/28/2018</span>
+            <h3>Archetype Web Components</h3>
+            <p>A front end UI framework for building sites quickly.</p>
+          </article>      
+        </a>
     
         <Link to="/passive-income">
           <article className="article-card">
@@ -32,7 +32,7 @@ class Articles extends Component {
           </article>   
         </Link>
     
-        <Link to="/portfolio/infrastructure">
+        <Link to="/infrastructure-article">
           <article className="article-card">
             <span className="article-date">10/11/2018</span>
             <h3>Announcing the Launch of my 'Infrastructure' Build System!</h3>

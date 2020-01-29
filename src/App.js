@@ -18,6 +18,10 @@ import Kasanova from './components/pages/portfolio-pages/Kasanova';
 import SophisticatedBlog from './components/pages/portfolio-pages/SophisticatedBlog';
 import WordPressOnePage from './components/pages/article-pages/WordPressOnePage';
 import PassiveIncome from './components/pages/article-pages/PassiveIncome';
+import InfrastructureArticle from './components/pages/article-pages/InfrastructureArticle';
+import ModernWebDev from './components/pages/article-pages/ModernWebDev';
+import BEMMethodology from './components/pages/article-pages/BEMMethodology';
+import CSSLayoutTechniques from './components/pages/article-pages/CSSLayoutTechniques';
 import './App.scss';
 
 
@@ -98,11 +102,20 @@ function App() {
         <Route path="/passive-income">
           <PassiveIncome />
         </Route>
-        <Route path="/sophisticated-blog">
-          <SophisticatedBlog />
+        <Route path="/infrastructure-article">
+          <InfrastructureArticle />
         </Route>
-        <Route path="/sophisticated-blog">
-          <SophisticatedBlog />
+
+        <Route path="/modern-web-dev">
+          <ModernWebDev />
+        </Route>
+
+        <Route path="/bem-methodology">
+          <BEMMethodology />
+        </Route>
+
+        <Route path="/css-layout-techniques">
+          <CSSLayoutTechniques />
         </Route>
 
       </React.Fragment>

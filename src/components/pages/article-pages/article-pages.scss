@@ -6,33 +6,44 @@
   margin: ($spacing-default * 2) auto;
 }
 
-.article-title {  text-align: center; }
+.article-title {  
+  background-color: white;
+  padding: 20px;
+  border: 1px solid $navy-blue;
+ }
 
-.article-title h1 {
-  margin-bottom: ($spacing-default / 2);
+ .article-title > h1,
+ .article-title > p {
+  margin: 0;
+ }
 
+.article-title > h1 {
   font-size: 4.2rem;
   font-weight: $font-weight-light;
-
-  color: #414141;
+  color: $navy-blue;
 }
 
 .article-title > p {
-  margin-bottom: ($spacing-default * 1.5);
   font-size: 1.4rem;
-  color: #b3b3b3;
+  color: rgba($navy-blue, .4);
   text-transform: uppercase;
 }
 
 .article-body {
   margin: 0 auto;
-  width: 80%;
-
   line-height: 3.4rem;
-  color: #6c6c6c;
+  background-color: $navy-blue;
+  color: white;
+  padding: 20px;
 }
 
 .article-body h4 {
   font-size: 2.8rem;
   margin: 3rem 0 1rem;
+  color: #fff;
+}
+
+.article-body a {
+  color: #fff;
+  border-bottom: 1px dashed #fff;
 }

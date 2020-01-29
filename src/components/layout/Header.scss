@@ -9,6 +9,7 @@
   padding: 1rem 0;
 
   background-color: #fff;
+  border-bottom: 1px solid lightgray;
 
   @media #{$medium} {
     flex-flow: row nowrap;
@@ -19,6 +20,7 @@
   max-width: 60px;
   height: auto;
   margin-left: 40px;
+  text-decoration: none;
 }
 
 .nav-container {
