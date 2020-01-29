@@ -9,16 +9,13 @@
 }
 
 .contact-title {
+  margin-top: 0;
   margin-bottom: 2rem;
   color: $navy-blue;
   font-weight: $font-weight-light;
   text-transform: uppercase;
   font-size: 3.5rem;
   text-align: center;
-
-  @media #{$medium} {
-    font-size: 4.4rem;
-  }
 }
 
 .contact-page h3 {
@@ -43,20 +40,23 @@
 .contact-form li { 
   list-style-type: none; 
 
+  > * {
+    color: $navy-blue;
+  }
+
   > :last-child {
     margin-left: 1rem;
   }
 } 
 
-.contact-form a { color: $blue-gray-600; }
-
 .contact-info { 
-  border-bottom:1px solid $navy-blue; 
-  background-color: #fff; 
+  border-bottom:1px solid $blue-gray-600; 
+  background-color: $navy-blue; 
 }
 
 .contact-info h3 {
   text-align: left;
+  color: #fff;
 }
 
 @media #{$medium} {

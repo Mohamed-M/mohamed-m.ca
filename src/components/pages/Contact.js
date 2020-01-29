@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import "./Contact.scss";
 
 class Contact extends Component {
@@ -20,7 +21,7 @@ class Contact extends Component {
                 </li>
                 <li>
                   <i className="fa fa-file"></i>
-                  <a href="img/mohamed_mohamud_resume.pdf"> Resume (PDF)</a>
+                  <a href={require('./../../assets/doc/mohamed_mohamud_resume.pdf')}> Resume (PDF)</a>
                 </li>
                 <li>
                   <i className="fa fa-map-pin"></i> <span>Ottawa, Ontario</span>

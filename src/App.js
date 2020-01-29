@@ -15,9 +15,11 @@ import HarlemTribune from './components/pages/portfolio-pages/HarlemTribune';
 import Infrastructure from './components/pages/portfolio-pages/Infrastructure';
 import ShawnLauren from './components/pages/portfolio-pages/ShawnLauren';
 import Kasanova from './components/pages/portfolio-pages/Kasanova';
-
-import './App.scss';
 import SophisticatedBlog from './components/pages/portfolio-pages/SophisticatedBlog';
+import WordPressOnePage from './components/pages/article-pages/WordPressOnePage';
+import PassiveIncome from './components/pages/article-pages/PassiveIncome';
+import './App.scss';
+
 
 function App() {
   return (
@@ -86,6 +88,19 @@ function App() {
           <Kasanova />
         </Route>
 
+        <Route path="/sophisticated-blog">
+          <SophisticatedBlog />
+        </Route>
+
+        <Route path="/wordpress-one-page">
+          <WordPressOnePage />
+        </Route>
+        <Route path="/passive-income">
+          <PassiveIncome />
+        </Route>
+        <Route path="/sophisticated-blog">
+          <SophisticatedBlog />
+        </Route>
         <Route path="/sophisticated-blog">
           <SophisticatedBlog />
         </Route>
