@@ -9,7 +9,6 @@ class CSSLayoutTechniques extends Component {
           <article class="article-entry">
             <div class="article-title">
               <h1>CSS Layout Techniques</h1>
-              <p>October 2nd 2017 </p>
             </div>
             <div class="article-body">
               <ul>

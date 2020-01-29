@@ -9,7 +9,6 @@ class ModernWebDev extends Component {
           <article class="article-entry">
             <div class="article-title">
               <h1>Modern Web Development Workflow Walkthrough</h1>
-              <p>October 8th 2017 </p>
             </div>
             <div class="article-body">
               <ol>

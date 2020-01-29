@@ -9,7 +9,6 @@ class WordPressOnePage extends Component {
           <article class="article-entry">
             <div class="article-title">
               <h1>Creating a WordPress One Page Theme Walkthrough</h1>
-              <p>October 17th 2017 </p>
             </div>
             <div class="article-body">
               <ol>

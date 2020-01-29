@@ -9,7 +9,6 @@ class PassiveIncome extends Component {
           <article class="article-entry">
             <div class="article-title">
               <h1>How to Start a Passive Income Project</h1>
-              <p>October 14th 2017 </p>
             </div>
             <div class="article-body">
               <ol>

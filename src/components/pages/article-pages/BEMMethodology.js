@@ -9,7 +9,6 @@ class BEMMethodology extends Component {
           <article class="article-entry">
             <div class="article-title">
               <h1>BEM Methodology Explained</h1>
-              <p>October 5th 2017 </p>
             </div>
             <div class="article-body">
               <p>
