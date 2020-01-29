@@ -6,7 +6,7 @@ class Contact extends Component {
     return (
       <React.Fragment>
         <section className="contact-page">
-          <h2 className="contact-title">Get in touch</h2>
+          <h2 className="contact-title">Contact</h2>
 
           <div className="contact-wrapper animated fadeInUpBig">
             <div className="contact-info">

@@ -9,7 +9,7 @@
   padding: 1rem 20px;
 
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 
   @media #{$x-large} {
     flex-flow: row nowrap;
@@ -22,6 +22,12 @@
   max-width: 60px;
   height: auto;
   text-decoration: none;
+
+  transition: $primary-transition;
+
+  &:hover {
+    opacity: .8;
+  }
 }
 
 .nav-container {

@@ -6,7 +6,7 @@ class Articles extends Component {
   render() {
     return (
       <main className="articles">
-        <h2>Articles on web development</h2>
+        <h2>Articles</h2>
     
         <Link to="wordpress-one-page">
           <article className="article-card">

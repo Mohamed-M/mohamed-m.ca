@@ -6,7 +6,7 @@ class Portfolio extends Component {
   render() {
     return (
       <main className="portfolio">
-        <h2>Pixel Perfect Design with a Modular Architecture</h2>
+        <h2>Portfolio</h2>
         <div className="portfolio-wrapper">
           <Link to="/wikileaf">
             <article className="portfolio-item">
