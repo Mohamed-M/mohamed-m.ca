@@ -1,7 +1,8 @@
 @import '../../App.scss';
 
 .portfolio {
-  margin: 1.5rem 2rem;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .portfolio h2 {
@@ -10,7 +11,6 @@
   font-weight: $font-weight-light;
   text-transform: uppercase;
   font-size: 2.5rem;
-  text-align: center;
 
   @media #{$medium} {
     font-size: 3.5rem;
@@ -19,17 +19,30 @@
 
 .portfolio-wrapper {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-direction: column;
+
+  @media #{$medium} {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+
+  > a {
+    margin-bottom: 40px;
+
+    @media #{$medium} {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .portfolio-item {
-  margin: 2rem 2rem;
-  box-shadow: 0 0 2rem 0 $blue-gray-600;
+  border: 1px solid #ccc;
   
   transition: transform .2s ease-in-out;
-
+  
   &:hover {
+    box-shadow: 0 0 1rem 0 $blue-gray-600;
     transform: scale(1.1);
   }
 }
@@ -39,13 +52,16 @@
   align-items: center;
   justify-content: center;
 
-  height: 32rem;
-  width: 32rem;
+ 
   max-width: 100%;
   max-height: 100%;
 
   background-color: #fff;
+  border-bottom: 1px solid #ccc;
 
+  @media #{$medium} {
+    height: 32rem;
+  }
 }
 
 .portfolio-title {

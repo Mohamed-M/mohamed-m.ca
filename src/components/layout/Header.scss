@@ -8,6 +8,9 @@
 
   padding: 1rem 0;
 
+  max-width: 1024px;
+  margin: 0 auto;
+
   @media #{$medium} {
     flex-flow: row nowrap;
   }
@@ -17,10 +20,6 @@
   max-width: 60px;
   height: auto;
   text-decoration: none;
-  
-  @media #{$large} {
-    margin-left: 40px;
-  }
 }
 
 .nav-container {
@@ -34,7 +33,6 @@
 
   @media #{$medium} {
     flex-flow: row nowrap;
-    margin: 0 4rem;
   }
 }
 
