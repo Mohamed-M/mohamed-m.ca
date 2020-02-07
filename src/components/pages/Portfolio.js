@@ -45,7 +45,6 @@ class Portfolio extends Component {
               <div className="portfolio-title">Big Jump Ent.</div>
             </article>
           </Link>
-
           <Link to="/regionalgroup">
             <article className="portfolio-item">
               <div className="portfolio-banner">
@@ -55,17 +54,6 @@ class Portfolio extends Component {
               <div className="portfolio-title">The Regional Group</div>
             </article>
           </Link>
-          <a rel="noopener noreferrer" target="_blank" href="https://mohamed-m.github.io/Archetype">
-            <article className="portfolio-item">
-              <div className="portfolio-banner">
-                <img
-                  src={require('./../../assets/image/logo_transparent.png')}
-                  alt="Archetype Web Components"
-                />
-              </div>
-              <div className="portfolio-title">Archetype Web Components</div>
-            </article>
-          </a>
           <Link to="/rthmf">
             <article className="portfolio-item">
               <div className="portfolio-banner">
@@ -79,19 +67,17 @@ class Portfolio extends Component {
               </div>
             </article>
           </Link>
-
-          <Link to="/harlem-tribune">
+          <a rel="noopener noreferrer" target="_blank" href="https://mohamed-m.github.io/Archetype">
             <article className="portfolio-item">
               <div className="portfolio-banner">
                 <img
-                  src={require('./../../assets/image/harlem-tribune_logo.png')}
-                  alt="Harlem Tribune"
+                  src={require('./../../assets/image/logo_transparent.png')}
+                  alt="Archetype Web Components"
                 />
               </div>
-              <div className="portfolio-title">Harlem Tribune</div>
+              <div className="portfolio-title">Archetype Web Components</div>
             </article>
-          </Link>
-
+          </a>
           <Link to="/infrastructure">
             <article className="portfolio-item">
               <div className="portfolio-banner">
@@ -101,33 +87,6 @@ class Portfolio extends Component {
                 />
               </div>
               <div className="portfolio-title">Infrastructure Build System</div>
-            </article>
-          </Link>
-
-          <Link to="/shawn-lauren">
-            <article className="portfolio-item">
-              <div className="portfolio-banner">
-                <img src={require('./../../assets/image/shawn-lauren_logo.jpg')} alt="Shawn Lauren Logo" />
-              </div>
-              <div className="portfolio-title">Shawn Lauren 1992 Stadium</div>
-            </article>
-          </Link>
-
-          <Link to="/kasanova">
-            <article className="portfolio-item">
-              <div className="portfolio-banner">
-                <img src={require('./../../assets/image/kasanova_logo.jpg')} alt="Kasanova Logo" />
-              </div>
-              <div className="portfolio-title">Kasanova Construction</div>
-            </article>
-          </Link>
-
-          <Link to="/sophisticated-blog">
-            <article className="portfolio-item">
-              <div className="portfolio-banner">
-                <img src={require('./../../assets/image/sb_logo.jpg')} alt="Sophisticated Blog" />
-              </div>
-              <div className="portfolio-title">Sophisticated Blog</div>
             </article>
           </Link>
         </div>

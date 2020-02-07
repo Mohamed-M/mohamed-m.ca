@@ -29,8 +29,10 @@
   font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: $font-weight-light;
-
+  text-align: center;
+  
   @media #{$medium} {
+    text-align: left;
     font-size: 3.5rem;
   }
 }
@@ -48,10 +50,13 @@
 .about-pic {
   padding: 2rem;
   margin: 0 auto;
+  max-width: 250px;
+  height: auto;
 
   @media #{$medium} {
     margin: 0;
     flex: 1;
+    max-width: none;
   }
 }
 
