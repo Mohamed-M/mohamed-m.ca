@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ScrollToTop from './components/modules/ScrollToTop'
 import BackgroundVideo from "./components/background-video/BackgroundVideo";
 import Header from "./components/layout/Header";
 import Articles from "./components/pages/Articles";
@@ -28,101 +29,103 @@ function App() {
   return (
     <Router>
       <React.Fragment>
-        <Header />
-        <Switch>
-          <Route exact path="/">
-            <BackgroundVideo />
-            <section className="intro-page">
-              <article className="intro-info">
-                <p className="intro-title">
-                  Hello, I'm Mohamed, a Front End Web Developer.
+        <ScrollToTop>
+          <Header />
+          <Switch>
+            <Route exact path="/">
+              <BackgroundVideo />
+              <section className="intro-page">
+                <article className="intro-info">
+                  <p className="intro-title">
+                    Hello, I'm Mohamed, a Front End Web Developer.
                 </p>
-                <p className="intro-subtitle">
-                  I'm enthusiastic about web development, great code structure,
-                  and learning new technologies.
+                  <p className="intro-subtitle">
+                    I'm enthusiastic about web development, great code structure,
+                    and learning new technologies.
                 </p>
-              </article>
-            </section>
-          </Route>
+                </article>
+              </section>
+            </Route>
 
-          <Route path="/articles">
-            <Articles />
-          </Route>
+            <Route path="/articles">
+              <Articles />
+            </Route>
 
-          <Route path="/portfolio">
-            <Portfolio />
-          </Route>
+            <Route path="/portfolio">
+              <Portfolio />
+            </Route>
 
-          <Route path="/about">
-            <About />
-          </Route>
+            <Route path="/about">
+              <About />
+            </Route>
 
-          <Route path="/contact">
-            <Contact />
-          </Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
 
-          <Route path="/bigjump">
-            <BigJump />
-          </Route>
+            <Route path="/bigjump">
+              <BigJump />
+            </Route>
 
-          <Route path="/capi">
-            <Capi />
-          </Route>
+            <Route path="/capi">
+              <Capi />
+            </Route>
 
-          <Route path="/regionalgroup">
-            <RegionalGroup />
-          </Route>
+            <Route path="/regionalgroup">
+              <RegionalGroup />
+            </Route>
 
-          <Route path="/wikileaf">
-            <Wikileaf />
-          </Route>
+            <Route path="/wikileaf">
+              <Wikileaf />
+            </Route>
 
-          <Route path="/rthmf">
-            <RTHMF />
-          </Route>
+            <Route path="/rthmf">
+              <RTHMF />
+            </Route>
 
-          <Route path="/harlem-tribune">
-            <HarlemTribune />
-          </Route>
+            <Route path="/harlem-tribune">
+              <HarlemTribune />
+            </Route>
 
-          <Route path="/infrastructure">
-            <Infrastructure />
-          </Route>
+            <Route path="/infrastructure">
+              <Infrastructure />
+            </Route>
 
-          <Route path="/shawn-lauren">
-            <ShawnLauren />
-          </Route>
+            <Route path="/shawn-lauren">
+              <ShawnLauren />
+            </Route>
 
-          <Route path="/kasanova">
-            <Kasanova />
-          </Route>
+            <Route path="/kasanova">
+              <Kasanova />
+            </Route>
 
-          <Route path="/sophisticated-blog">
-            <SophisticatedBlog />
-          </Route>
+            <Route path="/sophisticated-blog">
+              <SophisticatedBlog />
+            </Route>
 
-          <Route path="/wordpress-one-page">
-            <WordPressOnePage />
-          </Route>
-          <Route path="/passive-income">
-            <PassiveIncome />
-          </Route>
-          <Route path="/infrastructure-article">
-            <InfrastructureArticle />
-          </Route>
+            <Route path="/wordpress-one-page">
+              <WordPressOnePage />
+            </Route>
+            <Route path="/passive-income">
+              <PassiveIncome />
+            </Route>
+            <Route path="/infrastructure-article">
+              <InfrastructureArticle />
+            </Route>
 
-          <Route path="/modern-web-dev">
-            <ModernWebDev />
-          </Route>
+            <Route path="/modern-web-dev">
+              <ModernWebDev />
+            </Route>
 
-          <Route path="/bem-methodology">
-            <BEMMethodology />
-          </Route>
+            <Route path="/bem-methodology">
+              <BEMMethodology />
+            </Route>
 
-          <Route path="/css-layout-techniques">
-            <CSSLayoutTechniques />
-          </Route>
-        </Switch>
+            <Route path="/css-layout-techniques">
+              <CSSLayoutTechniques />
+            </Route>
+          </Switch>
+        </ScrollToTop>
       </React.Fragment>
     </Router>
   );

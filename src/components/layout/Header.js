@@ -9,12 +9,12 @@ function Header() {
         <img src={require('./../../assets/image/logo.png')} alt="Mohamed Logo" />
       </Link>
       <ul className="nav-container">
-      <Link to="articles" className="nav-link"><li>Articles<span className="fa fa-file-code-o"></span></li></Link>
-      <Link to="portfolio" className="nav-link"><li>Portfolio<span className="fa fa-folder-open-o"></span></li></Link>
-      <Link to="about" className="nav-link"><li>About<span className="fa fa-address-book-o"></span></li></Link>
-      <Link to="contact" className="nav-link"><li>Contact<span className="fa fa-envelope-o"></span></li></Link>
-    </ul>
-  </section>
+        <Link to="articles" className="nav-link"><li>Articles<span className="fa fa-file-code-o"></span></li></Link>
+        <Link to="portfolio" className="nav-link"><li>Portfolio<span className="fa fa-folder-open-o"></span></li></Link>
+        <Link to="about" className="nav-link"><li>About<span className="fa fa-address-book-o"></span></li></Link>
+        <Link to="contact" className="nav-link"><li>Contact<span className="fa fa-envelope-o"></span></li></Link>
+      </ul>
+    </section>
   )
 }
 
