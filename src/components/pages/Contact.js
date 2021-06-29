@@ -20,7 +20,7 @@ class Contact extends Component {
                 </li>
                 <li>
                   <i className="fa fa-file"></i>
-                  <a rel="noopener noreferrer" target="_blank" href={require('./../../assets/doc/mohamed_mohamud_resume.pdf')}> Resume (PDF)</a>
+                  <a rel="noopener noreferrer" target="_blank" href={require('./../../assets/doc/Mohamed_Mohamud_Resume.PDF')}> Resume (PDF)</a>
                 </li>
                 <li>
                   <i className="fa fa-map-pin"></i> <span>Ottawa, Ontario</span>

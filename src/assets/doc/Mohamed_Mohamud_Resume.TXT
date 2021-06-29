@@ -1,0 +1,77 @@
+
+Mohamed Mohamud
+Front End Web Developer
+
+Ottawa, ON 
+613 700 5789
+contact@mohamed-m.ca
+WWW: http://www.mohamed-m.ca
+
+Professional Summary
+
+Creative UI Developer with years of facilitating and supporting human interactions with complex systems and software. Maintains user-centric designs while adhering to prescribed interface principals and related development goals.
+
+Work History
+
+March 2020 to July 2021
+Sectigo Ottawa, Ontario
+UI Developer    
+
+Communicated with product managers and UX designers to translate project requirements and business objectives into polished user interfaces.
+Improved and expanded project platforms using JavaScript to develop rich User Interfaces.
+Technologies: HTML, Angular, Sass, Typescript
+
+February 2019 to January 2020
+Wikileaf Ottawa, Ontario
+Front End Web Developer    
+
+Assembled and addressed technical and design requirements, integrating user-facing and front-end elements to maintain web presence effectiveness.
+Developed the front end and UI/UX for the new custom design. Scaffolded Angular components to parse data, and created Services to update the database.
+Technologies: HTML, Angular, Sass, Typescript
+
+November 2018 to January 2019
+Marketing Breakthroughs Ottawa, Ontario
+Web Developer    
+
+Short-term contract for developing the landing pages of a Christmas holiday online marketing campaign.
+Planned website development, converting mockups into usable web presence with HTML, JavaScript, AJAX and JSON coding.
+Technologies: HTML, Javascript, CSS
+
+February 2018 to August 2018
+Baytek Ottawa, Ontario
+Front End Web Developer    
+
+Wrote clean HTML and CSS code, integrating design, extensions and third-party apps according to web development plans.
+Developed custom WordPress themes and maintained the boilerplate used. Delivered end products in 3 formats: mobile, tablet, desktop. Supported all major browsers and
+
+IE > 10.
+Technologies: HTML, SASS, JavaScript/jQuery, WordPress.
+
+July 2015 to May 2018
+GameDay New Media Agency Hamilton, Ontario
+Front End Web Developer    
+
+Reviewed and tested customer-facing prototypes before deployment, applying best practice diagnostic techniques to verify usability.
+Developed the in house website theme(s) for the agency.
+Technologies: HTML, SASS, JavaScript/jQuery, WordPress.
+
+Education
+
+Carleton University Ottawa, ON
+Bachelor of Information Technology Interactive Multimedia & Design 
+
+Completed 13.5 Credits towards a BIT degree (20 Credits).
+
+Skills
+
+HTML  
+
+SASS CCS  
+
+JavaScript  
+
+Angular  
+
+React  
+
+Adobe Creative Suite proficiency  

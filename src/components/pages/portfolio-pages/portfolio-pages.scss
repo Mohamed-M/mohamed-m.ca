@@ -22,7 +22,6 @@
   width: 100%;
   max-width: 160px;
   margin: 0 auto 10px;
-  box-shadow: 0 0 2px 1px $blue-gray-600;
 }
 
 .pf-info h2 {
@@ -58,8 +57,7 @@
   }
 }
 
-.left-panel,
-.right-panel {
+.left-panel {
   padding: 40px;
 }
 
@@ -80,21 +78,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid $navy-blue;
-}
-
-.right-panel > img {
+  padding-left: 40px;
 }
 
 .pf-copy {
   display: block;
-  margin: 0 auto 3rem;
-
   color: #fff;
+  font-size: 20px;
 }
 
 .pf-feature-img {
   width: 100%;
   margin-bottom: 3rem;
-  box-shadow: 0 0 2px 1px $blue-gray-600;
 }

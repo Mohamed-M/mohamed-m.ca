@@ -65,7 +65,7 @@
   flex: none;
   padding: 0;
   max-width: 1024px;
-  margin: 30px auto;
+  margin: 30px auto 60px;
 
   background-color: transparent;
 }
@@ -115,14 +115,12 @@
 }
 
 $abilities: (
-  html:        90,
+  html:        95,
   css:         95,
-  git:         80,
   javascript:  90,
   react:       85,
-  angular:     85,
-  wordpress:   70,
-  photoshop:   90,
+  angular:     90,
+  sketch:      80,
 );
 
 @each $ability, $score in $abilities {

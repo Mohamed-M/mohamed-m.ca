@@ -13,6 +13,7 @@ import RegionalGroup from "./components/pages/portfolio-pages/RegionalGroup";
 import Wikileaf from "./components/pages/portfolio-pages/Wikileaf";
 import RTHMF from "./components/pages/portfolio-pages/RTHMF";
 import Infrastructure from "./components/pages/portfolio-pages/Infrastructure";
+import Sectigo from './components/pages/portfolio-pages/Sectigo';
 import WordPressOnePage from "./components/pages/blog-pages/WordPressOnePage";
 import PassiveIncome from "./components/pages/blog-pages/PassiveIncome";
 import InfrastructureArticle from "./components/pages/blog-pages/InfrastructureArticle";
@@ -76,21 +77,31 @@ function App() {
             <Route path="/rthmf">
               <RTHMF />
             </Route>
+
             <Route path="/infrastructure">
               <Infrastructure />
             </Route>
+
+            <Route path="/sectigo">
+              <Sectigo />
+            </Route>
+
             <Route path="/wordpress-one-page">
               <WordPressOnePage />
             </Route>
+
             <Route path="/passive-income">
               <PassiveIncome />
             </Route>
+
             <Route path="/infrastructure-article">
               <InfrastructureArticle />
             </Route>
+
             <Route path="/bem-methodology">
               <BEMMethodology />
             </Route>
+            
           </Switch>
         </ScrollToTop>
       </React.Fragment>

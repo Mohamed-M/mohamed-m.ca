@@ -23,10 +23,9 @@ class About extends Component {
             <li className="ability-html">HTML5</li>
             <li className="ability-css">CSS3/SASS/SCSS</li>
             <li className="ability-javascript">JavaScript/ES6+/TypeScript</li>
-            <li className="ability-react">React/Redux</li>
-            <li className="ability-angular">Angular 2/7+</li>
-            <li className="ability-git">Git/NPM</li>
-            <li className="ability-photoshop">Photoshop/Sketch</li>
+            <li className="ability-angular">Angular</li>
+            <li className="ability-react">React</li>
+            <li className="ability-sketch">Sketch/Adobe XD</li>
           </ul>
         </section>
       </React.Fragment>
